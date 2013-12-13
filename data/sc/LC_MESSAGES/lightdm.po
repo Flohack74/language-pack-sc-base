@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-10-11 23:56+0000\n"
+"POT-Creation-Date: 2013-10-16 09:12+0000\n"
 "PO-Revision-Date: 2012-11-27 18:07+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Sardinian <sc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-12 15:27+0000\n"
-"X-Generator: Launchpad (build 16799)\n"
+"X-Launchpad-Export-Date: 2013-12-12 14:29+0000\n"
+"X-Generator: Launchpad (build 16869)\n"
 
 #. Help string for command line --config flag
 #: ../src/lightdm.c:945

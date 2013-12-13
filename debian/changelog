@@ -1,6 +1,6 @@
-language-pack-sc-base (1:13.10+20131012) saucy; urgency=low
+language-pack-sc-base (1:14.04+20131212) trusty; urgency=low
 
   * Initial Release.
 
- -- Ubuntu automatic language-pack builder <language-packs@ubuntu.com>  Sun, 13 Oct 2013 13:18:02 +0000
+ -- Ubuntu automatic language-pack builder <language-packs@ubuntu.com>  Fri, 13 Dec 2013 06:08:18 +0000
 
