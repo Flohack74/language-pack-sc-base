@@ -7,147 +7,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-10-16 09:12+0000\n"
+"POT-Creation-Date: 2014-02-17 14:49+0000\n"
 "PO-Revision-Date: 2012-11-27 18:07+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Sardinian <sc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-12-12 14:29+0000\n"
-"X-Generator: Launchpad (build 16869)\n"
+"X-Launchpad-Export-Date: 2014-02-20 13:32+0000\n"
+"X-Generator: Launchpad (build 16916)\n"
+
+#: ../debian/guest-session-auto.sh:22
+msgid "Temporary Guest Session"
+msgstr ""
+
+#: ../debian/guest-session-auto.sh:23
+msgid ""
+"All data created during this guest session will be deleted\n"
+"when you log out, and settings will be reset to defaults.\n"
+"Please save files on some external device, for instance a\n"
+"USB stick, if you would like to access them again later."
+msgstr ""
+
+#: ../debian/guest-session-auto.sh:27
+msgid ""
+"Another alternative is to save files in the\n"
+"/var/guest-data folder."
+msgstr ""
 
 #. Help string for command line --config flag
-#: ../src/lightdm.c:945
+#: ../src/lightdm.c:995
 msgid "Use configuration file"
 msgstr "Imprea file de configuratzione"
 
 #. Help string for command line --debug flag
-#: ../src/lightdm.c:948
+#: ../src/lightdm.c:998
 msgid "Print debugging messages"
 msgstr "Imprenta is messàgios de debug"
 
 #. Help string for command line --test-mode flag
-#: ../src/lightdm.c:951
+#: ../src/lightdm.c:1001
 msgid "Run as unprivileged user, skipping things that require root access"
 msgstr ""
 "In esecutzione comente impitadore sena privilègios, sarto is cosas chi "
 "tenent bisòngiu de s'atzessu de root"
 
 #. Help string for command line --pid-file flag
-#: ../src/lightdm.c:954
+#: ../src/lightdm.c:1004
 msgid "File to write PID into"
 msgstr "File pro iscrìere su PID a intro"
 
 #. Help string for command line --log-dir flag
-#: ../src/lightdm.c:957
+#: ../src/lightdm.c:1007
 msgid "Directory to write logs to"
 msgstr ""
 
 #. Help string for command line --run-dir flag
-#: ../src/lightdm.c:960
+#: ../src/lightdm.c:1010
 msgid "Directory to store running state"
 msgstr ""
 
 #. Help string for command line --cache-dir flag
-#: ../src/lightdm.c:963
+#: ../src/lightdm.c:1013
 msgid "Directory to cache information"
 msgstr ""
 
 #. Help string for command line --version flag
-#: ../src/lightdm.c:966
+#: ../src/lightdm.c:1016
 msgid "Show release version"
 msgstr ""
 
 #. Arguments and description for --help test
-#: ../src/lightdm.c:985
+#: ../src/lightdm.c:1035
 msgid "- Display Manager"
 msgstr ""
 
 #. Text printed out when an unknown command-line argument provided
-#: ../src/lightdm.c:995
+#: ../src/lightdm.c:1045
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
 msgstr ""
 
-#: ../utils/lightdm-set-defaults.c:53
-msgid "Enable debugging"
-msgstr "Ativa su debug"
-
-#: ../utils/lightdm-set-defaults.c:54
-msgid "Only update if no default already set"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:55
-msgid "Remove default value if it's the current one"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:56
-msgid "Set default seat type"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:57
-msgid "Set default session"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:58
-msgid "Set default greeter"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:59
-msgid "Set autologin user"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:60
-msgid "Set greeter-hide-users to true or false"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:61
-msgid "Set show-manual-login to true or false"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:62
-msgid "Set show-remote-login to true or false"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:63
-msgid "Set allow-guest to true or false"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:170
-msgid "- set lightdm default values"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:173
-#, c-format
-msgid "option parsing failed: %s\n"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:179
-#, c-format
-msgid ""
-"Wrong usage of the command\n"
-"%s"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:215
-msgid "true and false are the only valid choices for hide-users\n"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:224
-msgid "true and false are the only valid choices for allow-guest\n"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:233
-msgid "true and false are the only valid choices for show-manual-login\n"
-msgstr ""
-
-#: ../utils/lightdm-set-defaults.c:242
-msgid "true and false are the only valid choices for show-remote-login\n"
-msgstr ""
-
 #. Text printed out when an unknown command-line argument provided
-#: ../utils/dm-tool.c:28
+#: ../src/dm-tool.c:29
 #, c-format
 msgid ""
 "Run 'dm-tool --help' to see a full list of available command line options."

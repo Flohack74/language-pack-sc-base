@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-10-04 10:11+0000\n"
+"POT-Creation-Date: 2014-02-13 22:52+0000\n"
 "PO-Revision-Date: 2013-06-10 05:22+0000\n"
 "Last-Translator: Dàriu Piga <Unknown>\n"
 "Language-Team: Sardinian <sc@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2013-12-12 12:49+0000\n"
-"X-Generator: Launchpad (build 16869)\n"
+"X-Launchpad-Export-Date: 2014-02-20 12:15+0000\n"
+"X-Generator: Launchpad (build 16916)\n"
 
 #. Hack for Chinese langpack split
 #. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
@@ -80,20 +80,16 @@ msgstr "%s, %s"
 
 #. find out about the other options
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:451
-msgid "default"
-msgstr "Predeterminadu"
-
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:451
 msgid "none"
 msgstr "Nudda"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:505
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:504
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:708
 msgid "Software database is broken"
 msgstr "Sa base de datos de su software est segada"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:506
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:710
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:505
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
 msgid ""
 "It is impossible to install or remove any software. Please use the package "
 "manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
@@ -103,12 +99,12 @@ msgstr ""
 "Gestore de Pachetes «Synaptic» (o iscrie «sudo apt-get install -f» in unu "
 "terminale), pro currègere custu problema."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:547
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:546
 msgid "Could not install the selected language support"
 msgstr ""
 "No est istadu possìbile a installare su suportu pro sa limba seletzionada."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:548
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:547
 msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
@@ -117,14 +113,14 @@ msgstr ""
 "cumpila su formulàriu de sos errores in "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:572
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:607
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:611
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:571
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:606
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:610
 msgid "Could not install the full language support"
 msgstr ""
 "No est istadu possìbile a installare su suportu cumpletu pro sa limba."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:573
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:572
 msgid ""
 "Usually this is related to an error in your software archive or software "
 "manager. Check your preferences in Software Sources (click the icon at the "
@@ -137,15 +133,15 @@ msgstr ""
 "sa barra superiore e seletziona «Cunfiguratzione de su sistema… → Orìgenes "
 "de su software»)."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:608
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:607
 msgid "Failed to authorize to install packages."
 msgstr "Faddina a s'ora de autorizare s'installatzione de sos pachetes"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:666
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:665
 msgid "The language support is not installed completely"
 msgstr "Su suportu de sa limba no est installadu cumpletamente"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:667
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:666
 msgid ""
 "Some translations or writing aids available for your chosen languages are "
 "not installed yet. Do you want to install them now?"
@@ -153,19 +149,19 @@ msgstr ""
 "Non sunt istadas installadas totu sas tradutziones o corretores ortogràficos "
 "disponìbiles pro sas limbas seletzionadas. A los cheres installare como?"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:670
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:669
 msgid "_Remind Me Later"
 msgstr "_Ammenta·mi·lu prus a tardu"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:670
 msgid "_Install"
 msgstr "_Installa"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:673
 msgid "Details"
 msgstr "Detàllios"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:934
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:933
 #, python-format
 msgid ""
 "Failed to apply the '%s' format\n"
