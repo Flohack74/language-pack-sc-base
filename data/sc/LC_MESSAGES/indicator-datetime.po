@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indicator-datetime\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-03-14 17:54+0000\n"
+"POT-Creation-Date: 2014-04-08 13:35+0000\n"
 "PO-Revision-Date: 2013-03-07 22:36+0000\n"
 "Last-Translator: Dàriu Piga <Unknown>\n"
 "Language-Team: Sardinian <sc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-03-20 13:59+0000\n"
-"X-Generator: Launchpad (build 16967)\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:07+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
 
 #. TRANSLATORS: a strftime(3) format for 12hr time w/seconds
 #: ../src/formatter.cpp:234
@@ -23,7 +23,10 @@ msgid "%l:%M:%S %p"
 msgstr "%l:%M:%S %p"
 
 #. TRANSLATORS: a strftime(3) format for 12hr time
-#: ../src/formatter.cpp:237 ../src/utils.c:283
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 12-hour clock, events/appointments that happen today.
+#. en_US example: "%l:%M %p" --> "1:00 PM"
+#: ../src/formatter.cpp:237 ../src/utils.c:304
 msgid "%l:%M %p"
 msgstr "%l:%M %p"
 
@@ -33,131 +36,186 @@ msgid "%H:%M:%S"
 msgstr "%H:%M:%S"
 
 #. TRANSLATORS: a strftime(3) format for 24hr time
-#: ../src/formatter.cpp:243 ../src/utils.c:293
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 24-hour clock, events/appointments that happen today.
+#. en_US example: "%H:%M" --> "13:00"
+#: ../src/formatter.cpp:243 ../src/utils.c:341
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#. TRANSLATORS: a strftime(3) format showing the weekday, date, and year
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. That will fix bug #1001595 for your locale and make the date/time in the upper-right corner of your screen look beautiful :)
+#. This format string shows the abbreviated weekday, day, abbreviated month, and year.
+#. en_US example: "%a %b %e %Y" --> "Sat Oct 31 2020"
+#. en_GB example: "%a %e %b %Y" --> "Sat 31 Oct 2020"
+#. zh_CN example(?): "%Y年%m月%d日 周%a" --> "2020年10月31日 周六"
 #: ../src/formatter-desktop.cpp:138
 msgid "%a %b %e %Y"
 msgstr ""
 
-#. TRANSLATORS: a strftime(3) format showing the weekday and date
-#: ../src/formatter-desktop.cpp:141
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. That will fix bug #1001595 for your locale and make the date/time in the upper-right corner of your screen look beautiful :)
+#. This format string shows the abbreviated weekday, day, and abbreviated month.
+#. en_US example: "%a %b %e" --> "Sat Oct 31"
+#. en_GB example: "%a %e %b" --> "Sat 31 Oct"
+#. zh_CN example(?): "%m月%d日 周%a" --> "03月27日 周六"
+#: ../src/formatter-desktop.cpp:147
 msgid "%a %b %e"
 msgstr "%a %e %b"
 
-#. TRANSLATORS: a strftime(3) format showing the weekday and year.
-#: ../src/formatter-desktop.cpp:144
-msgid "%a %Y"
-msgstr ""
-
-#. TRANSLATORS: a strftime(3) format showing the weekday.
-#: ../src/formatter-desktop.cpp:147
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. That will fix bug #1001595 for your locale and make the date/time in the upper-right corner of your screen look beautiful :)
+#. This format string shows the abbreviated weekday.
+#. zh_CN example(?): "周%a" --> "周六"
+#: ../src/formatter-desktop.cpp:154
 #, c-format
 msgid "%a"
 msgstr "%a"
 
-#. TRANSLATORS: a strftime(3) format showing the date and year
-#: ../src/formatter-desktop.cpp:150
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. That will fix bug #1001595 for your locale and make the date/time in the upper-right corner of your screen look beautiful :)
+#. This format string shows the day, abbreviated month, and year.
+#. en_US example: "%b %e %Y" --> "Oct 31 2020"
+#. en_GB example: "%e %b %Y" --> "31 Oct 2020"
+#. zh_CN example(?): "%Y年%m月%d日" --> "2020年10月31日"
+#: ../src/formatter-desktop.cpp:163
 msgid "%b %e %Y"
 msgstr ""
 
-#. TRANSLATORS: a strftime(3) format showing the date
-#: ../src/formatter-desktop.cpp:153
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. That will fix bug #1001595 for your locale and make the date/time in the upper-right corner of your screen look beautiful :)
+#. This format string shows the abbreviated month and day.
+#. en_US example: "%b %e" --> "Mar 27"
+#. en_GB example: "%e %b" --> "27 Mar"
+#. zh_CN example(?): "%m月%d日" --> "03月27日"
+#: ../src/formatter-desktop.cpp:172
 msgid "%b %e"
 msgstr "%e %b"
 
-#. TRANSLATORS: a strftime(3) format showing the year
-#: ../src/formatter-desktop.cpp:156
+#. This strftime(3) format string shows the year.
+#: ../src/formatter-desktop.cpp:176
 msgid "%Y"
 msgstr ""
 
-#. add a menuitem that shows the current date
-#: ../src/menu.cpp:235
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. Format string for the day on the first menuitem in the datetime indicator.
+#. This format string gives the full weekday, date, month, and year.
+#. en_US example: "%A, %B %e %Y" --> Saturday, October 31 2020"
+#. en_GB example: "%A, %e %B %Y" --> Saturday, 31 October 2020"
+#: ../src/menu.cpp:255
 msgid "%A, %e %B %Y"
 msgstr "%A, %e %B %Y"
 
 #. add the 'Add Event…' menuitem
-#: ../src/menu.cpp:331
+#: ../src/menu.cpp:352
 msgid "Add Event…"
 msgstr "Annanghe eventu"
 
-#: ../src/menu.cpp:341
+#: ../src/menu.cpp:362
 msgid "Clock"
 msgstr ""
 
-#: ../src/menu.cpp:386
-msgid "Date & Time Settings…"
-msgstr ""
-
-#: ../src/menu.cpp:390
+#: ../src/menu.cpp:414
 msgid "Time & Date settings…"
 msgstr ""
 
-#: ../src/menu.cpp:446
+#: ../src/menu.cpp:469
 msgid "Date and Time"
 msgstr ""
 
-#: ../src/menu.cpp:496
+#: ../src/menu.cpp:519
 msgid "Upcoming"
 msgstr ""
 
-#: ../src/menu.cpp:501
+#: ../src/menu.cpp:524
 #, c-format
 msgid "%s (has alarms)"
 msgstr ""
 
-#: ../src/snap.cpp:230
+#: ../src/snap.cpp:238
 #, c-format
 msgid "Alarm %s"
 msgstr ""
 
-#: ../src/snap.cpp:239
+#. text for the alarm popup dialog's button to show the active alarm
+#: ../src/snap.cpp:248
 msgid "Show"
 msgstr ""
 
-#: ../src/snap.cpp:240
+#. text for the alarm popup dialog's button to shut up the alarm
+#: ../src/snap.cpp:250
 msgid "Dismiss"
 msgstr ""
 
-#: ../src/utils.c:273
+#: ../src/utils.c:274
 msgid "Today"
 msgstr ""
 
-#: ../src/utils.c:274
+#: ../src/utils.c:278
 msgid "Tomorrow"
 msgstr ""
 
-#: ../src/utils.c:275
+#. This is a strftime(3) format string indicating the unabbreviated weekday.
+#: ../src/utils.c:283
 #, c-format
 msgid "%A"
 msgstr "%A"
 
-#: ../src/utils.c:276
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing full-day events that are over a week away.
+#. en_US example: "%a %b %d" --> "Sat Oct 31"
+#. en_GB example: "%a %d %b" --> "Sat 31 Oct"
+#. zh_CN example(?): "%m月%d日 周%a" --> "10月31日 周六"
+#: ../src/utils.c:292
 msgid "%a %d %b"
 msgstr ""
 
-#: ../src/utils.c:284
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 12-hour clock, events/appointments that happen tomorrow.
+#. (\u2003 is a unicode em space which is slightly wider than a normal space.)
+#. en_US example: "Tomorrow\u2003%l:%M %p" --> "Tomorrow  1:00 PM"
+#: ../src/utils.c:312
 msgid "Tomorrow\\u2003%l:%M %p"
 msgstr ""
 
-#: ../src/utils.c:285
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 12-hour clock, events/appointments that happen this week.
+#. (\u2003 is a unicode em space which is slightly wider than a normal space.)
+#. en_US example: "Tomorrow\u2003%l:%M %p" --> "Fri  1:00 PM"
+#: ../src/utils.c:320
 msgid "%a\\u2003%l:%M %p"
 msgstr ""
 
-#: ../src/utils.c:286
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 12-hour clock, events/appointments that happen over a week from now.
+#. (\u2003 is a unicode em space which is slightly wider than a normal space.)
+#. en_US example: "%a %d %b\u2003%l:%M %p" --> "Fri Oct 31  1:00 PM"
+#. en_GB example: "%a %b %d\u2003%l:%M %p" --> "Fri 31 Oct  1:00 PM"
+#: ../src/utils.c:329
 msgid "%a %d %b\\u2003%l:%M %p"
 msgstr ""
 
-#: ../src/utils.c:294
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 24-hour clock, events/appointments that happen tomorrow.
+#. (\u2003 is a unicode em space which is slightly wider than a normal space.)
+#. en_US example: "Tomorrow\u2003%l:%M %p" --> "Tomorrow  13:00"
+#: ../src/utils.c:349
 msgid "Tomorrow\\u2003%H:%M"
 msgstr ""
 
-#: ../src/utils.c:295
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 24-hour clock, events/appointments that happen this week.
+#. (\u2003 is a unicode em space which is slightly wider than a normal space.)
+#. en_US example: "%a\u2003%H:%M" --> "Fri  13:00"
+#: ../src/utils.c:357
 msgid "%a\\u2003%H:%M"
 msgstr ""
 
-#: ../src/utils.c:296
+#. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
+#. This format string is used for showing, on a 24-hour clock, events/appointments that happen over a week from now.
+#. (\u2003 is a unicode em space which is slightly wider than a normal space.)
+#. en_US example: "%a %d %b\u2003%H:%M" --> "Fri Oct 31  13:00"
+#. en_GB example: "%a %b %d\u2003%H:%M" --> "Fri 31 Oct  13:00"
+#: ../src/utils.c:366
 msgid "%a %d %b\\u2003%H:%M"
 msgstr ""
