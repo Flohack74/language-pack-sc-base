@@ -1,6 +1,6 @@
-language-pack-sc-base (1:14.04+20140410) trusty; urgency=low
+language-pack-sc-base (1:14.04+20140707) trusty-proposed; urgency=low
 
   * Initial Release.
 
- -- Ubuntu automatic language-pack builder <language-packs@ubuntu.com>  Thu, 10 Apr 2014 18:36:50 +0000
+ -- Ubuntu automatic language-pack builder <language-packs@ubuntu.com>  Wed, 09 Jul 2014 09:30:12 +0000
 

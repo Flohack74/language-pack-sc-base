@@ -36,7 +36,7 @@ binary-indep:
 	dh_installdeb -i
 	dh_gencontrol -i
 	dh_md5sums -i
-	dh_builddeb -i -- -Z bzip2
+	dh_builddeb -i -- -Z xz
 
 binary: binary-arch binary-indep
 

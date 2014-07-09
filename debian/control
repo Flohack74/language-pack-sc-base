@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Language pack maintainers <language-packs@ubuntu.com>
 Build-Depends-Indep: gettext
 Build-Depends: debhelper (>= 8)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 
 Package: language-pack-sc-base
 Architecture: all
-Pre-Depends: dpkg (>= 1.10.27ubuntu1)
+Pre-Depends: dpkg (>= 1.16.1), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, locales (>= 2.3.6), language-pack-sc (>= ${binary:Version})
 Recommends: 
 Conflicts: language-pack-sc (<< ${binary:Version})

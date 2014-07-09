@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indicator-datetime\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-04-08 13:35+0000\n"
+"POT-Creation-Date: 2014-04-15 22:39+0000\n"
 "PO-Revision-Date: 2013-03-07 22:36+0000\n"
 "Last-Translator: Dàriu Piga <Unknown>\n"
 "Language-Team: Sardinian <sc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-10 15:07+0000\n"
-"X-Generator: Launchpad (build 16976)\n"
+"X-Launchpad-Export-Date: 2014-07-07 14:37+0000\n"
+"X-Generator: Launchpad (build 17086)\n"
 
 #. TRANSLATORS: a strftime(3) format for 12hr time w/seconds
 #: ../src/formatter.cpp:234
@@ -132,18 +132,18 @@ msgstr ""
 msgid "%s (has alarms)"
 msgstr ""
 
-#: ../src/snap.cpp:238
+#: ../src/snap.cpp:272
 #, c-format
 msgid "Alarm %s"
 msgstr ""
 
-#. text for the alarm popup dialog's button to show the active alarm
-#: ../src/snap.cpp:248
+#. / alarm popup dialog's button to show the active alarm
+#: ../src/snap.cpp:286
 msgid "Show"
 msgstr ""
 
-#. text for the alarm popup dialog's button to shut up the alarm
-#: ../src/snap.cpp:250
+#. / alarm popup dialog's button to shut up the alarm
+#: ../src/snap.cpp:289
 msgid "Dismiss"
 msgstr ""
 
