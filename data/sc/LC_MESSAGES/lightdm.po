@@ -7,15 +7,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-04-29 20:15+0000\n"
+"POT-Creation-Date: 2015-06-18 22:46+0000\n"
 "PO-Revision-Date: 2012-11-27 18:07+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Sardinian <sc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-07-07 14:47+0000\n"
-"X-Generator: Launchpad (build 17086)\n"
+"X-Launchpad-Export-Date: 2015-08-04 08:27+0000\n"
+"X-Generator: Launchpad (build 17656)\n"
+
+#: ../debian/config-error-dialog.sh:16
+#, sh-format
+msgid "Error found when loading $CONFIG_FILE:"
+msgstr ""
+
+#: ../debian/config-error-dialog.sh:17
+msgid ""
+"As a result the session will not be configured correctly.\n"
+"You should fix the problem as soon as feasible."
+msgstr ""
 
 #: ../debian/guest-session-auto.sh:22
 msgid "Temporary Guest Session"
@@ -36,54 +47,59 @@ msgid ""
 msgstr ""
 
 #. Help string for command line --config flag
-#: ../src/lightdm.c:979
+#: ../src/lightdm.c:1162
 msgid "Use configuration file"
 msgstr "Imprea file de configuratzione"
 
 #. Help string for command line --debug flag
-#: ../src/lightdm.c:982
+#: ../src/lightdm.c:1165
 msgid "Print debugging messages"
 msgstr "Imprenta is messàgios de debug"
 
 #. Help string for command line --test-mode flag
-#: ../src/lightdm.c:985
+#: ../src/lightdm.c:1168
 msgid "Run as unprivileged user, skipping things that require root access"
 msgstr ""
 "In esecutzione comente impitadore sena privilègios, sarto is cosas chi "
 "tenent bisòngiu de s'atzessu de root"
 
 #. Help string for command line --pid-file flag
-#: ../src/lightdm.c:988
+#: ../src/lightdm.c:1171
 msgid "File to write PID into"
 msgstr "File pro iscrìere su PID a intro"
 
 #. Help string for command line --log-dir flag
-#: ../src/lightdm.c:991
+#: ../src/lightdm.c:1174
 msgid "Directory to write logs to"
 msgstr ""
 
 #. Help string for command line --run-dir flag
-#: ../src/lightdm.c:994
+#: ../src/lightdm.c:1177
 msgid "Directory to store running state"
 msgstr ""
 
 #. Help string for command line --cache-dir flag
-#: ../src/lightdm.c:997
+#: ../src/lightdm.c:1180
 msgid "Directory to cache information"
 msgstr ""
 
+#. Help string for command line --show-config flag
+#: ../src/lightdm.c:1183
+msgid "Show combined configuration"
+msgstr ""
+
 #. Help string for command line --version flag
-#: ../src/lightdm.c:1000
+#: ../src/lightdm.c:1186
 msgid "Show release version"
 msgstr ""
 
 #. Arguments and description for --help test
-#: ../src/lightdm.c:1019
+#: ../src/lightdm.c:1205
 msgid "- Display Manager"
 msgstr ""
 
 #. Text printed out when an unknown command-line argument provided
-#: ../src/lightdm.c:1029
+#: ../src/lightdm.c:1215
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options."
 msgstr ""

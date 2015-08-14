@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-manager\n"
 "Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
-"POT-Creation-Date: 2014-04-28 21:02+0000\n"
+"POT-Creation-Date: 2015-04-15 20:23+0000\n"
 "PO-Revision-Date: 2010-09-06 03:55+0000\n"
 "Last-Translator: Borealis <Unknown>\n"
 "Language-Team: Sardinian <sc@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2014-07-07 12:28+0000\n"
-"X-Generator: Launchpad (build 17086)\n"
+"X-Launchpad-Export-Date: 2015-08-04 06:45+0000\n"
+"X-Generator: Launchpad (build 17656)\n"
 "Language: sc\n"
 
 #: ../UpdateManager/backend/InstallBackendAptdaemon.py:67
@@ -121,7 +121,7 @@ msgstr ""
 msgid "Restart _Later"
 msgstr ""
 
-#: ../UpdateManager/Dialogs.py:282
+#: ../UpdateManager/Dialogs.py:283
 msgid "_Restart Now…"
 msgstr ""
 

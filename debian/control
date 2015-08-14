@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Language pack maintainers <language-packs@ubuntu.com>
 Build-Depends-Indep: gettext
 Build-Depends: debhelper (>= 8)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 
 Package: language-pack-sc-base
 Architecture: all

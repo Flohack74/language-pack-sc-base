@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-07-07 14:37+0000\n"
-"X-Generator: Launchpad (build 17086)\n"
+"X-Launchpad-Export-Date: 2015-08-04 08:19+0000\n"
+"X-Generator: Launchpad (build 17656)\n"
 
 #. TRANSLATORS: a strftime(3) format for 12hr time w/seconds
 #: ../src/formatter.cpp:234
@@ -39,7 +39,7 @@ msgstr "%H:%M:%S"
 #. Translators, please edit/rearrange these strftime(3) tokens to suit your locale!
 #. This format string is used for showing, on a 24-hour clock, events/appointments that happen today.
 #. en_US example: "%H:%M" --> "13:00"
-#: ../src/formatter.cpp:243 ../src/utils.c:341
+#: ../src/formatter.cpp:243 ../src/utils.c:344
 msgid "%H:%M"
 msgstr "%H:%M"
 
@@ -132,18 +132,16 @@ msgstr ""
 msgid "%s (has alarms)"
 msgstr ""
 
-#: ../src/snap.cpp:272
+#: ../src/snap.cpp:132
 #, c-format
 msgid "Alarm %s"
 msgstr ""
 
-#. / alarm popup dialog's button to show the active alarm
-#: ../src/snap.cpp:286
+#: ../src/snap.cpp:101
 msgid "Show"
 msgstr ""
 
-#. / alarm popup dialog's button to shut up the alarm
-#: ../src/snap.cpp:289
+#: ../src/snap.cpp:102
 msgid "Dismiss"
 msgstr ""
 
